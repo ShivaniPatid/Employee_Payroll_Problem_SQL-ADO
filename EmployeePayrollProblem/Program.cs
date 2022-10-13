@@ -26,8 +26,14 @@
             //repo.GetAllEmployee();
 
             RetrieveEmployee retrieve = new RetrieveEmployee();
-            retrieve.GetEmplyee();
-            
+            //retrieve.GetEmplyee();
+
+            DataBaseFunction data = new DataBaseFunction();
+            //data.SumFunction();
+            data.AvgFunction();
+            data.MinFunction();
+            data.MaxFunction();
+            data.CountFunction();
         }
     }
 }
