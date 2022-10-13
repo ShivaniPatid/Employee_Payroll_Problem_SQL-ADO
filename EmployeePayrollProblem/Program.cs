@@ -23,7 +23,10 @@
             model.Country = "India";
 
             //repo.AddEmployee(model);
-            repo.GetAllEmployee();
+            //repo.GetAllEmployee();
+
+            RetrieveEmployee retrieve = new RetrieveEmployee();
+            retrieve.GetEmplyee();
             
         }
     }
